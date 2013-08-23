@@ -19,7 +19,8 @@ no_index:
     - inc
 requires:
   Authen::Simple::Adapter: 0
+  File::Slurp: 0
   IO::Socket::SSL: 0
   Net::Detect: 0
   Test::More: 0
-version: 0.1
+version: 0.2

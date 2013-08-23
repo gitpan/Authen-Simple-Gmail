@@ -11,6 +11,7 @@ WriteMakefile(
     PREREQ_PM     => {
         'Test::More'  => 0,
         'Net::Detect' => 0,
+        'File::Slurp' => 0,
 
         'IO::Socket::SSL'         => 0,
         'Authen::Simple::Adapter' => 0,

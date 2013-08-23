@@ -3,7 +3,7 @@ package Authen::Simple::Gmail;
 use strict;
 use warnings;
 
-$Authen::Simple::Gmail::VERSION = '0.1';
+$Authen::Simple::Gmail::VERSION = '0.2';
 
 use IO::Socket::SSL         ();
 use Authen::Simple::Adapter ();
@@ -71,7 +71,7 @@ Authen::Simple::Gmail - Simple authentication using Gmail
 
 =head1 VERSION
 
-This document describes Authen::Simple::Gmail version 0.1
+This document describes Authen::Simple::Gmail version 0.2
 
 =head1 SYNOPSIS
 

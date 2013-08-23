@@ -10,9 +10,11 @@ my $builder = Module::Build->new(
     requires          => {
         'Test::More'  => 0,
         'Net::Detect' => 0,
+        'File::Slurp' => 0,
 
         'IO::Socket::SSL'         => 0,
         'Authen::Simple::Adapter' => 0,
+        'File::Slurp'             => 0,
     },
     add_to_cleanup => ['Authen-Simple-Gmail-*'],
 );
